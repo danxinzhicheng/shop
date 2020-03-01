@@ -18,7 +18,7 @@ import java.util.Random;
 @Component
 public class SendMessage {
     public void send(Object value,String tel,int type) {
-        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4FvgFJhQmgu5Q5zuLPcp", "Yw6RG6QsOQeUP2Q0TZxc420wYl269S");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "....", "....");
         IAcsClient client = new DefaultAcsClient(profile);
         String obj = JSON.toJSONString(value);
 
