@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.left-message.data-v-4282f5ba {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding-left: 20rpx;
+}
+.avator-wrapper.data-v-4282f5ba {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+.bubble-wrapper.data-v-4282f5ba {
+  padding-left: 30rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding-right: 135rpx;
+}
+.bubble-wrapper .bubble.data-v-4282f5ba {
+    padding: 20rpx;
+    background: #d5ebff;
+    border-radius: 15rpx;
+    position: relative;
+}
+.bubble-wrapper .bubble.data-v-4282f5ba::before {
+      position: absolute;
+      left: -20rpx;
+      top: 10rpx;
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-right: 20px solid #d5ebff;
+      border-bottom: 20px solid transparent;
+}
+.avator.data-v-4282f5ba {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hiideen;
+  background: #f1f1f1;
+}
+.avator .img.data-v-4282f5ba {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.time.data-v-4282f5ba {
+  line-height: 50rpx;
+  color: #b7b7b7;
+  font-size: 24rpx;
+  text-align: right;
+}
+

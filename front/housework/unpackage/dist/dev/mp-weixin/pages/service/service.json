@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "服务列表",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

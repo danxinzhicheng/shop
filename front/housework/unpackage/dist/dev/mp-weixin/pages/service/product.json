@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "服务详情",
+  "usingComponents": {
+    "share": "/components/share"
+  }
+}

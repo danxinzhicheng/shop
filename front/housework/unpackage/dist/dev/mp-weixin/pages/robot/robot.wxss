@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.page.data-v-1d338ffa {
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 100rpx;
+}
+.jiange.data-v-1d338ffa {
+  border-top: 3px solid transparent;
+}
+.messagelist .message-height.data-v-1d338ffa {
+  padding: 30rpx 0 130rpx 0;
+}
+.footer.data-v-1d338ffa {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100rpx;
+}
+.send-message.data-v-1d338ffa {
+  box-sizing: border-box;
+  padding: 0 15rpx;
+  height: 100rpx;
+  width: 100%;
+  background: #4191ea;
+  line-height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+}
+.send-message .iconfont.data-v-1d338ffa {
+    width: 120rpx;
+    font-size: 3px;
+    text-align: center;
+    line-height: 100rpx;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+            flex: 0 0 auto;
+    color: #fff;
+    font-size: 60rpx;
+}
+.send-message .input-wrapper.data-v-1d338ffa {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+            flex: 1;
+    padding: 10rpx;
+}
+.send-message .input-wrapper input.data-v-1d338ffa {
+      box-sizing: border-box;
+      padding: 0 15rpx;
+      width: 100%;
+      height: 100%;
+      border-radius: 10rpx;
+      background: #fff;
+}
+
